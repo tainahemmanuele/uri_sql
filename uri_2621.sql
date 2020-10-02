@@ -1,0 +1,1 @@
+select p.name from products p, providers f where p.id_providers = f.id and (p.amount between 10 and 20) and f.name like 'P%';
