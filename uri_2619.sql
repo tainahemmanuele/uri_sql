@@ -1,0 +1,1 @@
+select p.name, f.name, p.price from products p, providers f , categories c where p.id_categories = c.id and p.id_providers = f.id and c.name like 'Super Luxury' and p.price > 1000;
